@@ -57,3 +57,19 @@ body {
 .vison {
   margin-top: 25px;
 }
+.boxes {
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
+}
+.box1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+.box2 {
+  background: rgb(198, 228, 214);
+}
+.box3 {
+  background: rgb(247, 235, 207);
+}
