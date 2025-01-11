@@ -60,16 +60,55 @@ body {
 .boxes {
   margin-top: 25px;
   display: flex;
-  gap: 25px;
+  gap: 2%;
 }
 .box1 {
   background-color: rgba(84, 144, 245, 0.2);
   padding: 20px;
   border-radius: 10px;
+  width: 30%;
+}
+.box1 h1 {
+  font-size: 24px;
+  margin-top: 5px;
 }
 .box2 {
   background: rgb(198, 228, 214);
 }
 .box3 {
   background: rgb(247, 235, 207);
+}
+
+.box1-btn {
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  margin-top: 25px;
+}
+.box2-btn {
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  margin-top: 25px;
+}
+.box3-btn {
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  margin-top: 25px;
+}
+/* vison part end */
+
+.quatation {
+  margin-top: 35px;
+
+  background-color: white;
+  border-radius: 10px;
+}
+.quatation-des {
+  background-image: url(./image/quote-bg.png);
+  background-repeat: no-repeat;
+  padding: 5% 5% 0% 5%;
+  background-position-x: 5.4%;
+  background-position-y: 60%;
+}
+.quatation-title {
+  padding: 0% 0% 5% 5%;
 }
