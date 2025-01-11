@@ -110,6 +110,7 @@ body {
   border: none;
   border-radius: 7px;
   margin-top: 15px;
+  font-weight: 600;
 }
 .primary-btn:hover {
   background-color: tomato;
@@ -265,12 +266,19 @@ body {
   width: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.subscribe input[placeholder] {
+  padding-left: 50px;
 }
 .subscribe input[value] {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #006a50;
   color: white;
+  font-weight: 600;
   padding-left: 20px;
   padding-right: 20px;
   border: none;
