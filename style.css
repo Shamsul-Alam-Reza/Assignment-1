@@ -2,9 +2,48 @@
   margin: 0;
   padding: 0;
 }
+/* font start */
 
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* font end */
 body {
   background-color: #f5f5f5;
+  font-family: "Fira Sans", serif;
 }
 .container {
   width: 80%;
@@ -52,6 +91,11 @@ body {
   border: none;
   border-radius: 7px;
   margin-top: 15px;
+}
+.primary-btn:hover {
+  background-color: tomato;
+  color: black;
+  cursor: pointer;
 }
 
 .vison {
@@ -145,6 +189,14 @@ body {
 }
 .donate-box {
   width: 20%;
+  background-color: white;
+  color: rgba(14, 14, 14, 0.8);
+}
+.donate-box:hover {
+  background-color: chocolate;
+  color: white;
+}
+.donate-box2 {
   background-color: #c6e4d6;
 }
 .donate-boxes {
@@ -156,7 +208,7 @@ body {
   margin: 20px auto;
 }
 .donate-box {
-  padding: 50px;
+  padding: 30px 40px 30px 40px;
   text-align: center;
   font-weight: 600;
   justify-content: center;
@@ -173,4 +225,37 @@ body {
 }
 .donate-input input[placeholder] {
   text-align: center;
+}
+/* Donate part end */
+.subscribe {
+  text-align: center;
+  margin-top: 45px;
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+  padding: 35px;
+  line-height: 2;
+}
+.subscribe input {
+  padding: 15px;
+  border: none;
+}
+.subscribe-input-field {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subscribe input[value] {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #006a50;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+.subscribe input[value]:hover {
+  background-color: tomato;
+  color: black;
+  cursor: pointer;
 }
