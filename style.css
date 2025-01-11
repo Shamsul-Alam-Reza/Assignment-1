@@ -112,3 +112,24 @@ body {
 .quatation-title {
   padding: 0% 0% 5% 5%;
 }
+
+/* Start of recent part */
+.recent {
+  margin-top: 25px;
+}
+.recent-raper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 25px;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+.recent-raper-two {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.recent-img {
+  border-radius: 10px;
+}
